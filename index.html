@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Burger Truck | Ann Arbor</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="hero-overlay">
+      <h1>The Burger Truck</h1>
+      <p>Home of the Famous Cheeto Burger</p>
+
+      <div class="hero-buttons">
+        <a href="#menu" class="btn">View Menu</a>
+        <a href="#contact" class="btn outline">Contact Us</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ABOUT -->
+  <section class="about">
+    <h2>About Us</h2>
+    <p>
+      The Burger Truck is an Ann Arbor favorite serving bold,
+      over-the-top burgers, loaded fries, and cheesy hot dogs.
+      Real food. Real flavor. No shortcuts.
+    </p>
+  </section>
+
+  <!-- MENU -->
+  <section id="menu" class="menu-preview">
+    <h2>Fan Favorites</h2>
+
+    <div class="menu-grid">
+      <div class="menu-item">
+        <img src="images/hero-burger.jpg" alt="Cheeto Burger">
+        <h3>Cheeto Burger</h3>
+        <p>Juicy beef, melted cheese, house sauce, crunchy Cheetos.</p>
+      </div>
+
+      <div class="menu-item">
+        <img src="images/cheese-dog.jpg" alt="Cheese Hot Dog">
+        <h3>Cheese-Drenched Hot Dog</h3>
+        <p>Grilled hot dog smothered in rich melted cheese.</p>
+      </div>
+
+      <div class="menu-item">
+        <img src="images/loaded-fries.jpg" alt="Loaded Fries">
+        <h3>Loaded Fries</h3>
+        <p>Seasoned fries topped with beef, peppers, and sauce.</p>
+      </div>
+    </div>
+
+    <a class="order-btn" href="https://maps.app.goo.gl/JgQFHqLprBQVfYav9" target="_blank">
+      Order / Directions
+    </a>
+  </section>
+
+  <!-- SOCIAL -->
+  <section class="social">
+    <h2>Follow Us</h2>
+    <p>Check out our latest food drops and specials.</p>
+    <a href="#" class="btn">Instagram</a>
+  </section>
+
+  <!-- LOCATION -->
+  <section class="location">
+    <h2>Find Us</h2>
+    <p>4005 Washtenaw Ave, Ann Arbor, MI 48108</p>
+
+    <iframe
+      src="https://www.google.com/maps?q=4005+Washtenaw+Ave,+Ann+Arbor,+MI+48108&output=embed"
+      loading="lazy"
+      allowfullscreen>
+    </iframe>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+
+    <form action="mailto:theburgertruck@email.com" method="post" enctype="text/plain">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 The Burger Truck • Ann Arbor, MI</p>
+  </footer>
+
+</body>
+</html>
