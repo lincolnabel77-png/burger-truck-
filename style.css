@@ -1,0 +1,51 @@
+.hero-buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.btn.outline {
+  background: transparent;
+  border: 2px solid #ffb703;
+  color: #ffb703;
+}
+
+.order-btn {
+  display: inline-block;
+  margin-top: 40px;
+  background: #ffb703;
+  padding: 15px 35px;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+.social {
+  background: #111;
+  color: #fff;
+}
+
+.contact form {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact input,
+.contact textarea {
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.contact button {
+  background: #ffb703;
+  border: none;
+  padding: 14px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+}
